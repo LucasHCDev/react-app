@@ -1,7 +1,5 @@
-import React from 'react';
-
-/*
-import ReactDOM from 'react-dom'; */
+import React, {useState } from 'react';
+import ReactDOM from 'react-dom';
 import './App.css';
 import {useSpring, animated} from 'react-spring';
 
@@ -58,4 +56,6 @@ const props = useSpring({
   ); */
   }
 
+
+ReactDOM.render(<App />, document.getElementById('root'))  
 export default App;
